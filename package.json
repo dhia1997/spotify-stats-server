@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda -c ./webpack.functions.js serve src",
+    "start": "./node_modules/.bin/netlify-lambda -c ./webpack.functions.js serve src",
     "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda -c ./webpack.functions.js build src"
   },
   "keywords": [],
